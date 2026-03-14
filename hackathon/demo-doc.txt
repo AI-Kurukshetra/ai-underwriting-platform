@@ -1,0 +1,5 @@
+Loan Application Supporting Document
+Borrower: Khushbu Shah
+SSN: XXX-XX-1234
+Income Verification: $75,000/year
+Employment: Acme Corp
