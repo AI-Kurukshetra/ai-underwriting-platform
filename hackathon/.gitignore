@@ -8,3 +8,8 @@ coverage
 .env.test.local
 .env.production.local
 supabase/.temp
+
+playwright-report
+test-results
+blob-report
+.vercel

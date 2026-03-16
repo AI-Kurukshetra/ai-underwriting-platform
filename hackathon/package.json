@@ -10,7 +10,12 @@
     "typecheck": "tsc -p tsconfig.typecheck.json --noEmit",
     "prisma:generate": "prisma generate",
     "prisma:pull": "prisma db pull",
-    "prisma:studio": "prisma studio"
+    "prisma:studio": "prisma studio",
+    "test:e2e": "playwright test",
+    "test:e2e:ui": "playwright test --ui",
+    "test:e2e:headed": "playwright test --headed --project=chromium",
+    "test:e2e:debug": "playwright test --debug --project=chromium",
+    "playwright:install": "playwright install chromium"
   },
   "dependencies": {
     "@prisma/client": "^6.16.2",
@@ -29,6 +34,7 @@
     "eslint": "^8.57.1",
     "eslint-config-next": "^14.2.35",
     "prisma": "^6.16.2",
-    "typescript": "^5.8.2"
+    "typescript": "^5.8.2",
+    "@playwright/test": "^1.55.0"
   }
 }
